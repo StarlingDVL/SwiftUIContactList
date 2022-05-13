@@ -15,6 +15,7 @@
 		2B075054282E7DCE00FFEBBF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075053282E7DCD00FFEBBF /* DataManager.swift */; };
 		2B075056282E821F00FFEBBF /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075055282E821F00FFEBBF /* ContactListView.swift */; };
 		2B075058282E823A00FFEBBF /* PersonInfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075057282E823A00FFEBBF /* PersonInfoList.swift */; };
+		2B07505A282E8AB900FFEBBF /* PersonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075059282E8AB900FFEBBF /* PersonInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2B075053282E7DCD00FFEBBF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2B075055282E821F00FFEBBF /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
 		2B075057282E823A00FFEBBF /* PersonInfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoList.swift; sourceTree = "<group>"; };
+		2B075059282E8AB900FFEBBF /* PersonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				2B075043282E7A6A00FFEBBF /* SwiftUIContactListApp.swift */,
 				2B075045282E7A6A00FFEBBF /* ContentView.swift */,
 				2B075055282E821F00FFEBBF /* ContactListView.swift */,
+				2B075059282E8AB900FFEBBF /* PersonInfoView.swift */,
 				2B075057282E823A00FFEBBF /* PersonInfoList.swift */,
 				2B075051282E7CE600FFEBBF /* Person.swift */,
 				2B075053282E7DCD00FFEBBF /* DataManager.swift */,
@@ -154,6 +157,7 @@
 				2B075052282E7CE600FFEBBF /* Person.swift in Sources */,
 				2B075054282E7DCE00FFEBBF /* DataManager.swift in Sources */,
 				2B075046282E7A6A00FFEBBF /* ContentView.swift in Sources */,
+				2B07505A282E8AB900FFEBBF /* PersonInfoView.swift in Sources */,
 				2B075044282E7A6A00FFEBBF /* SwiftUIContactListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
