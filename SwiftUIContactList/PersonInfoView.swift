@@ -11,7 +11,7 @@ struct PersonInfoView: View {
     let person: Person
     
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
             Image(systemName: "person.fill")
                 .resizable()
                 .frame(width: 250, height: 250)
@@ -28,23 +28,5 @@ struct PersonInfoView: View {
 struct PersonInfoView_Previews: PreviewProvider {
     static var previews: some View {
         PersonInfoView(person: Person(id: 1, name: "Tim", surname: "Cook", phone: "123", email: "a@a"))
-    }
-}
-
-struct DescriptionView: View {
-    let person: Person
-    let image: String
-    let text: String
-    
-    var body: some View {
-        HStack(spacing: 20) {
-            Image(systemName: image)
-                .resizable()
-                .foregroundColor(.blue)
-                .frame(width: 35, height: 30)
-            Text(text)
-                .font(.title)
-            Spacer()
-        }
     }
 }

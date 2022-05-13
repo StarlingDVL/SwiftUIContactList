@@ -16,6 +16,7 @@
 		2B075056282E821F00FFEBBF /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075055282E821F00FFEBBF /* ContactListView.swift */; };
 		2B075058282E823A00FFEBBF /* PersonInfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075057282E823A00FFEBBF /* PersonInfoList.swift */; };
 		2B07505A282E8AB900FFEBBF /* PersonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075059282E8AB900FFEBBF /* PersonInfoView.swift */; };
+		2B07505C282E973F00FFEBBF /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B07505B282E973F00FFEBBF /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		2B075055282E821F00FFEBBF /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
 		2B075057282E823A00FFEBBF /* PersonInfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoList.swift; sourceTree = "<group>"; };
 		2B075059282E8AB900FFEBBF /* PersonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoView.swift; sourceTree = "<group>"; };
+		2B07505B282E973F00FFEBBF /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				2B075045282E7A6A00FFEBBF /* ContentView.swift */,
 				2B075055282E821F00FFEBBF /* ContactListView.swift */,
 				2B075059282E8AB900FFEBBF /* PersonInfoView.swift */,
+				2B07505B282E973F00FFEBBF /* DescriptionView.swift */,
 				2B075057282E823A00FFEBBF /* PersonInfoList.swift */,
 				2B075051282E7CE600FFEBBF /* Person.swift */,
 				2B075053282E7DCD00FFEBBF /* DataManager.swift */,
@@ -159,6 +162,7 @@
 				2B075046282E7A6A00FFEBBF /* ContentView.swift in Sources */,
 				2B07505A282E8AB900FFEBBF /* PersonInfoView.swift in Sources */,
 				2B075044282E7A6A00FFEBBF /* SwiftUIContactListApp.swift in Sources */,
+				2B07505C282E973F00FFEBBF /* DescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

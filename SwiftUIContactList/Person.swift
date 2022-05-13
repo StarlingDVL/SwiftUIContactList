@@ -22,7 +22,7 @@ struct Person: Identifiable {
         let shuffledNames = DataManager.shared.names.shuffled()
         let shuffledSurnames = DataManager.shared.surnames.shuffled()
         let shuffledPhones = DataManager.shared.phoneNumbers.shuffled()
-        let shuffledEmails = DataManager.shared.phoneNumbers.shuffled()
+        let shuffledEmails = DataManager.shared.emails.shuffled()
         
         var persons: [Person] = []
         
